@@ -34,6 +34,7 @@ Qt Client for [Ucoin](http://www.ucoin.io) project.
   * Note : On Windows, it seems that PyQt5 works best with 32 bits version of Python.
   * Install [python3.3](https://www.python.org/download/releases/3.3.5), [cx_freeze for python 3.3](http://cx-freeze.sourceforge.net/) and [pyqt5](http://www.riverbankcomputing.co.uk/software/pyqt/download5), and [pip](http://www.pip-installer.org/en/latest/)
   * On Linux, deployment works with python3.4 too
+  * On Linux, when installing cx-freeze sourcecode using python3.x, edit setup.py line 79 and 81 to 'if True:' before running __python setup.py install__. Also, for debian-based distro's (ex. Ubuntu) you run python3 instead of python. Your cutecoin build folder should thus end with 3.x (and not 2.x).
   * On Windows, make sure folders for python3 and pyqt5 binaries are in your $PATH
   * Run __pip install python-gnupg__ and __pip install requests__
   * Run __python gen_resources.py__ in cutecoin folder
