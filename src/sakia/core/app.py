@@ -532,10 +532,14 @@ class Application(QObject):
                         if not latest:
                             latest = r
                         else:
-                            latest_date = datetime.datetime.strptime(latest['published_at'], "%Y-%m-%dT%H:%M:%SZ")
-                            date = datetime.datetime.strptime(r['published_at'], "%Y-%m-%dT%H:%M:%SZ")
-                            if latest_date < date:
-                                latest = r
+                            try:
+                                latest_date = datetime.datetime.strptime(latest['published_at'], "%Y-%m-%dT%H:%M:%SZ")
+                                date = datetime.datetime.strptime(r['published_at'], "%Y-%m-%dT%H:%M:%SZ")
+                                parsed = parse_version(r["tag_name"])
+                                if not parsed.is_prerelease and latest_date < date:
+                                    latest = r
+                            except TypeError:
+                                pass
                     latest_version = latest["tag_name"]
                     version = (__version__ == latest_version,
                                latest_version,
