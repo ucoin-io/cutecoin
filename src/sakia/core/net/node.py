@@ -344,7 +344,7 @@ class Node(QObject):
         future_pong = None
 
         def pong_callback():
-            if future_pong:
+            if future_pong and not future_pong.done():
                 future_pong.set_result(True)
 
         async def ping_loop():
@@ -587,8 +587,9 @@ class Node(QObject):
             try:
                 conn_handler = self.endpoint.conn_handler()
                 peer_websocket = bma.ws.Peer(conn_handler)
-                ws_connection = peer_websocket.connect()
+                ws_connection = peer_websocket.connect(autoping=False)
                 async with ws_connection as ws:
+                    heartbeat = await self.heartbeat(ws)
                     self._connected['peer'] = True
                     logging.debug("Connected successfully to peer ws : {0}".format(self.pubkey[:5]))
                     async for msg in ws:
@@ -600,6 +601,8 @@ class Node(QObject):
                             break
                         elif msg.tp == aiohttp.MsgType.error:
                             break
+                        elif msg.tp == aiohttp.MsgType.pong:
+                            heartbeat()
             except ValueError as e:
                 logging.debug("Websocket peer {0} : {1} - {2}".format(type(e).__name__, str(e), self.pubkey[:5]))
                 await self.request_peers()
