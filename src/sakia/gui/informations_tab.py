@@ -107,6 +107,7 @@ class InformationsTabWidget(QWidget, Ui_InformationsTabWidget):
                     actual_growth = float(0)
                 else:
                     actual_growth = block_ud['dividend'] / (block_ud_minus_1['monetaryMass'] / block_ud['membersCount'])
+                median_time_minus_1 = block_ud_minus_1['medianTime']
             else:
                 localized_mass_minus_1_per_member = QLocale().toString(
                         float(0), 'f', self.app.preferences['digits_after_comma']
@@ -114,6 +115,7 @@ class InformationsTabWidget(QWidget, Ui_InformationsTabWidget):
                 localized_mass_minus_1 = QLocale().toString(
                         float(0), 'f', self.app.preferences['digits_after_comma']
                 )
+                median_time_minus_1 = 0
                 actual_growth = float(0)
 
             # set infos in label
@@ -146,7 +148,7 @@ class InformationsTabWidget(QWidget, Ui_InformationsTabWidget):
                     self.tr('Actual growth c = UD(t)/[M(t-1)/N(t)]'),
                     QLocale.toString(
                         QLocale(),
-                        QDateTime.fromTime_t(block_ud_minus_1['medianTime']),
+                        QDateTime.fromTime_t(median_time_minus_1),
                         QLocale.dateTimeFormat(QLocale(), QLocale.ShortFormat)
                     ),
                     self.tr('Penultimate UD date and time (t-1)'),
