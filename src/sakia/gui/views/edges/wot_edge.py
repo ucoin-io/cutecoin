@@ -1,6 +1,6 @@
 from PyQt5.QtCore import Qt, QRectF, QLineF, QPointF, QSizeF, \
                         qFuzzyCompare
-from PyQt5.QtGui import QColor, QPen, QPolygonF
+from PyQt5.QtGui import QColor, QPen, QPolygonF, QPainterPath, QBrush
 import math
 from .base_edge import BaseEdge
 from ....core.graph.constants import EdgeStatus
@@ -29,6 +29,7 @@ class WotEdge(BaseEdge):
             EdgeStatus.STRONG: Qt.SolidLine,
             EdgeStatus.WEAK: Qt.DashLine
         }
+        self.setToolTip(self.metadata['tooltip'])
 
     @property
     def color_name(self):
@@ -95,6 +96,9 @@ class WotEdge(BaseEdge):
         hpy = line.p1().y() + (line.dy() / 2.0)
         head_point = QPointF(hpx, hpy)
 
+        # debug : display shape for tooltip triggering zone
+        #painter.fillPath(self.shape(), QBrush(QColor(0, 255, 0, 255)))
+
         painter.setPen(QPen(color, 1, Qt.SolidLine, Qt.RoundCap, Qt.RoundJoin))
         destination_arrow_p1 = head_point + QPointF(
             math.sin(angle - math.pi / 3) * self.arrow_size,
@@ -108,3 +112,31 @@ class WotEdge(BaseEdge):
 
         if self.metadata["confirmation_text"]:
             painter.drawText(head_point, self.metadata["confirmation_text"])
+
+    def shape(self):
+        """
+        Return real shape of the item to detect collision or hover accurately
+
+        :return: QPainterPath
+        """
+        if not self.source or not self.destination:
+            return
+        line = QLineF(self.source_point, self.destination_point)
+
+        # detection mouse hover on arc path
+        path = QPainterPath()
+        path.addPolygon(QPolygonF([line.p1(), line.p2()]))
+
+        #  arrow in the middle of the arc
+        hpx = line.p1().x() + (line.dx() / 2.0)
+        hpy = line.p1().y() + (line.dy() / 2.0)
+
+        # add detection zone around the arrow head
+        path.addRect(QRectF(
+            hpx-10,
+            hpy-10,
+            20,
+            20
+        ))
+
+        return path
