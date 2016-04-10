@@ -17,7 +17,8 @@ class TestWotEdge(unittest.TestCase, QuamashTest):
     def test_create_wot_edge(self):
         metadata = {
             'status': EdgeStatus.STRONG,
-            'confirmation_text': "0/6"
+            'confirmation_text': "0/6",
+            'tooltip': "17/04/2016"
         }
         nx_pos = {
             "A": (0, 5),
@@ -40,7 +41,8 @@ class TestWotEdge(unittest.TestCase, QuamashTest):
     def test_paint(self, painter, widget):
         metadata = {
             'status': EdgeStatus.STRONG,
-            'confirmation_text': "0/6"
+            'confirmation_text': "0/6",
+            'tooltip': "17/04/2016"
         }
         nx_pos = {
             "A": (0, 5),
@@ -58,7 +60,8 @@ class TestWotEdge(unittest.TestCase, QuamashTest):
     def test_bounding_rect(self, painter, widget):
         metadata = {
             'status': EdgeStatus.STRONG,
-            'confirmation_text': "0/6"
+            'confirmation_text': "0/6",
+            'tooltip': "17/04/2016"
         }
         nx_pos = {
             "A": (0, 5),
