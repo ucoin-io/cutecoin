@@ -1,9 +1,10 @@
 import attr
 import datetime
 import logging
+import i18n_rc
 
 import aiohttp
-from PyQt5.QtCore import QObject, pyqtSignal, QTranslator, QCoreApplication, QLocale
+from PyQt5.QtCore import QObject, pyqtSignal, QTranslator, QCoreApplication, QLocale, Qt
 from . import __version__
 from .options import SakiaOptions
 from sakia.data.connectors import BmaConnector
@@ -76,6 +77,7 @@ class Application(QObject):
 
     @classmethod
     def startup(cls, argv, qapp, loop):
+        qapp.setAttribute(Qt.AA_EnableHighDpiScaling, True)
         options = SakiaOptions.from_arguments(argv)
         app_data = AppDataFile.in_config_path(options.config_path).load_or_init()
         app = cls(qapp, loop, options, app_data, None, None, options.currency)
@@ -123,7 +125,8 @@ class Application(QObject):
                                                                    bma_connector)
 
         self.sources_service = SourcesServices(self.currency, sources_processor,
-                                                          connections_processor, bma_connector)
+                                               connections_processor, transactions_processor,
+                                               blockchain_processor, bma_connector)
 
         self.blockchain_service = BlockchainService(self, self.currency, blockchain_processor, bma_connector,
                                                                self.identities_service,
@@ -164,13 +167,15 @@ class Application(QObject):
         QLocale.setDefault(QLocale(locale))
         QCoreApplication.removeTranslator(self._translator)
         self._translator = QTranslator(self.qapp)
-        if locale == "en_GB":
+        if locale == "en":
             QCoreApplication.installTranslator(self._translator)
         elif self._translator.load(":/i18n/{0}".format(locale)):
             if QCoreApplication.installTranslator(self._translator):
-                logging.debug("Loaded i18n/{0}".format(locale))
+                self._logger.debug("Loaded i18n/{0}".format(locale))
             else:
-                logging.debug("Couldn't load translation")
+                self._logger.debug("Couldn't load translation")
+        else:
+            self._logger.debug("Couldn't load i18n/{0}".format(locale))
 
     def start_coroutines(self):
         self.network_service.start_coroutines()
