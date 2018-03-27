@@ -44,6 +44,8 @@ RUN pip3 install pytest-cov
 RUN pip3 install pyinstaller==3.2
 RUN pip3 install -U git+https://github.com/posborne/dbus-python.git
 RUN pip3 install notify2
+# Cache pyqt install (can be removed)
+RUN pip3 install "PyQt5>=5.9,<5.10"
 
 RUN mkdir /src
 WORKDIR /src/
