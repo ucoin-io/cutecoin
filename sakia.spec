@@ -38,6 +38,8 @@ if is_linux:
             libsodium_path = "/usr/lib/x86_64-linux-gnu/libsodium.so.18.3.0"
         if os.path.isfile('/usr/lib/x86_64-linux-gnu/libsodium.so.18.3.0'):
             libsodium_path = "/usr/lib/x86_64-linux-gnu/libsodium.so.18.3.0"
+        if os.path.isfile('/usr/lib/x86_64-linux-gnu/libsodium.so.18.0.1'):
+            libsodium_path = "/usr/lib/x86_64-linux-gnu/libsodium.so.18.0.1"
 
     a.binaries = a.binaries + TOC([('libsodium.so', libsodium_path, 'BINARY')])
     a.datas = a.datas + [('sakia/root_servers.yml', 'src/sakia/root_servers.yml', 'DATA')]
