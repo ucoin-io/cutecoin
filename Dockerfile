@@ -54,5 +54,5 @@ ADD . /src
 # Install python dependencies (for sakia and the dev tools)
 RUN pip3 install -r requirements.txt
 
-CMD export; /etc/init.d/xvfb start && bash build.sh && python3 setup.py install && pytest --cov=sakia tests
+CMD docker/run.sh
 

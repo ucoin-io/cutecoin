@@ -8,3 +8,6 @@ python3 gen_translations.py --lrelease
 
 echo pyinstaller
 pyinstaller sakia.spec
+
+echo install locally
+python3 setup.py install
