@@ -2,7 +2,7 @@ quamash
 asynctest
 networkx
 attrs
-duniter-mirage
+duniter-mirage==0.1.9
 duniterpy>=0.40
 pytest
 pytest-asyncio<0.6
