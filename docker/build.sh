@@ -7,6 +7,7 @@ python3 gen_resources.py
 python3 gen_translations.py --lrelease
 
 echo pyinstaller
+python3 setup.py build
 pyinstaller sakia.spec
 
 echo install locally

@@ -54,5 +54,7 @@ ADD . /src
 # Install python dependencies (for sakia and the dev tools)
 RUN pip3 install -r requirements.txt
 
+# Utils for building packages
+RUN apt-get -y install --no-install-recommends zip
 CMD docker/run.sh
 
