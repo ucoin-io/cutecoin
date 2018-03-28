@@ -1,4 +1,4 @@
-FROM ubuntu:xenial
+FROM debian:stretch
 
 ARG DEBIAN_FRONTEND=noninteractive
 
@@ -21,7 +21,7 @@ RUN apt-get install -y libxcb1 libxcb1-dev libx11-xcb1 libx11-xcb-dev libxcb-key
         libxcb-xfixes0-dev libxrender-dev libxcb-shape0-dev libxcb-randr0-dev libxcb-render-util0 \
         libxcb-render-util0-dev libxcb-glx0-dev libgl1-mesa-dri libegl1-mesa libpcre3 libgles2-mesa-dev \
         freeglut3-dev libfreetype6-dev xorg-dev xserver-xorg-input-void xserver-xorg-video-dummy xpra libosmesa6-dev \
-        libdbus-1-dev libdbus-glib-1-dev autoconf automake libtool libgstreamer-plugins-base0.10-0 dunst fakeroot \
+        libdbus-1-dev libdbus-glib-1-dev autoconf automake libtool libgstreamer-plugins-base1.0-0 dunst fakeroot \
         dbus-x11
 # On travis, inso used more up-to-date version
 RUN apt-get -y install --no-install-recommends libsodium18 qtbase5-dev
@@ -42,7 +42,7 @@ RUN pip3 install --upgrade pip
 RUN pip3 install coveralls
 RUN pip3 install pytest-cov
 RUN pip3 install pyinstaller==3.2
-RUN pip3 install -U git+https://github.com/posborne/dbus-python.git
+RUN pip3 install dbus-python
 RUN pip3 install notify2
 # Cache pyqt install (can be removed)
 RUN pip3 install "PyQt5>=5.9,<5.10"
