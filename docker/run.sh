@@ -5,3 +5,5 @@
 docker/build.sh
 
 pytest --cov=sakia tests
+
+docker/build_package.sh
