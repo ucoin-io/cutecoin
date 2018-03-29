@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+rm sakia-linux.zip sakia-linux.deb
+
 zip -r sakia-linux.zip dist/
 
 # Debian package
