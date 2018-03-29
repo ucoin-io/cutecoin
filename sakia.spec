@@ -43,6 +43,7 @@ if is_linux:
         if os.path.isfile('/usr/lib/x86_64-linux-gnu/libsodium.so.18.1.1'):
             libsodium_path = "/usr/lib/x86_64-linux-gnu/libsodium.so.18.1.1"
 
+    a.binaries = a.binaries - TOC([('libdrm.so.2', '/usr/lib/x86_64-linux-gnu/libdrm.so.2', 'BINARY')])
     a.binaries = a.binaries + TOC([('libsodium.so', libsodium_path, 'BINARY')])
     a.datas = a.datas + [('sakia/root_servers.yml', 'src/sakia/root_servers.yml', 'DATA')]
     a.datas = a.datas + [('sakia/g1_licence.html', 'src/sakia/g1_licence.html', 'DATA')]
@@ -62,7 +63,10 @@ for file in os.listdir(os.path.join("src", "sakia", "data", "repositories")):
             a.datas = a.datas + [('sakia/data/repositories/{:}'.format(sql_file),
                                   'src/sakia/data/repositories/{:}'.format(sql_file), 'DATA')]
 
-print(a.binaries)
+import pprint
+pp = pprint.PrettyPrinter(width=200)
+pp.pprint(a.binaries)
+
 
 pyz = PYZ(a.pure, a.zipped_data,
              cipher=block_cipher)
