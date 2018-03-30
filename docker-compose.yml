@@ -6,4 +6,4 @@ services:
     ports:
       - "5699:5699"
     volumes:
-      - ./:/src/
+      - ./builds/:/builds

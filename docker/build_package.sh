@@ -1,7 +1,17 @@
 #!/usr/bin/env bash
 
-rm sakia-linux.zip sakia-linux.deb
+echo $PYENV_PYTHON_VERSION
+eval "$(pyenv init -)" 
+pyenv shell $PYENV_PYTHON_VERSION
 
+echo pyinstaller
+python3 setup.py build
+pyinstaller -y sakia.spec
+
+# Cleanup old packages
+rm -f sakia-linux.zip sakia-linux.deb
+
+# zip package
 zip -r sakia-linux.zip dist/
 
 # Debian package

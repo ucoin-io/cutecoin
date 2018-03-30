@@ -2,8 +2,8 @@
 
 /etc/init.d/xvfb start 
 
-docker/build.sh
+/docker/build.sh
 
-pytest --cov=sakia tests
+/docker/tests.sh
 
-docker/build_package.sh
+/docker/build_package.sh
