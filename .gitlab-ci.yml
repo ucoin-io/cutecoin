@@ -1,6 +1,7 @@
 stages:
   - github-sync
   - build_and_test
+  - build_packages
   - release
 
 variables:
@@ -49,6 +50,16 @@ build_and_test: &build_and_test
     - python gen_translations.py --lrelease
     - python setup.py bdist_wheel
     - py.test --cov=sakia tests/
+
+build_packages:
+  <<: *env
+  stage: build_packages
+  script:
+    - docker/build_dependencies.sh
+    - docker/build.sh
+    - docker/build_package.sh
+  artifacts:
+    - /builds/*
 
 releases:
   <<: *env
