@@ -59,6 +59,7 @@ build_packages:
     - docker/build.sh
     - docker/build_package.sh
   artifacts:
+    paths:
     - /builds/*
 
 releases:
