@@ -42,6 +42,7 @@ push_to_github:
 build_and_test: &build_and_test
   <<: *env
   stage: build_and_test
+  when: always
   script:
     - pip install wheel
     - pip install pytest-cov
