@@ -8,7 +8,7 @@ pip install --upgrade pip
 pip install coveralls
 pip install pytest-cov
 pip install pyinstaller==3.2
-pip install dbus-python
+pip install dbus-python==1.2.4
 pip install notify2
 
 # Install python dependencies for sakia
