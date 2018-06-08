@@ -12,4 +12,4 @@ pip install dbus-python==1.2.4
 pip install notify2
 
 # Install python dependencies for sakia
-#pip install -r requirements.txt
+pip install -r requirements.txt
