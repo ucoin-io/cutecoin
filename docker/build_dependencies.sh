@@ -1,5 +1,4 @@
 #! /bin/bash
-apt install zip
 
 echo $PYENV_PYTHON_VERSION
 eval "$(pyenv init -)" 

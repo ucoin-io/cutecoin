@@ -2,11 +2,9 @@
 # Halt on errors
 set -e
 
-echo $PYENV_PYTHON_VERSION
+echo "Python version:" $PYENV_PYTHON_VERSION
 eval "$(pyenv init -)" 
 pyenv shell $PYENV_PYTHON_VERSION
-
-ls /builder/.pyenv/shims
 
 echo Generation of ressources and translations
 python3 gen_resources.py
