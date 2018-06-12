@@ -9,9 +9,6 @@ variables:
 
 image: registry.duniter.org/cebash/duniterpy-builder:0.0.9
 
-before_script:
-  - sudo apt update; sudo apt install -y zip
-
 push_to_github:
   stage: github-sync
   variables:
@@ -40,6 +37,7 @@ push_to_github:
     - pyenv shell $PYENV_PYTHON_VERSION
     - export PATH=/opt/qt/5.9/5.9.4/gcc_64/bin:$PATH
     - export DISPLAY=:99
+    - sudo apt update; sudo apt install -y zip
 
 
 build_and_test: &build_and_test
