@@ -15,8 +15,7 @@ rm -f sakia-linux.zip sakia-linux.deb
 zip -r sakia-linux.zip dist/
 
 # Debian package
-chmod 755 ci/travis/debian/DEBIAN/post*
-chmod 755 ci/travis/debian/DEBIAN/pre*
+chmod -R 755 ci/travis/debian/DEBIAN
 mkdir -p ci/travis/debian/opt/sakia
 
 cp sakia.png ci/travis/debian/opt/sakia/
