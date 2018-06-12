@@ -7,10 +7,10 @@ stages:
 variables:
     PYENV_PYTHON_VERSION: 3.5.5
 
-image: registry.duniter.org/docker/python3/duniterpy-builder:0.0.7
+image: registry.duniter.org/cebash/duniterpy-builder:0.0.9
 
 before_script:
-  - apt install -y zip
+  - sudo apt install -y zip
 
 push_to_github:
   stage: github-sync
