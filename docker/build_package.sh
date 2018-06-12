@@ -6,7 +6,7 @@ pyenv shell $PYENV_PYTHON_VERSION
 
 echo pyinstaller
 python3 setup.py build
-sudo pyinstaller -y sakia.spec
+sudo -E pyinstaller -y sakia.spec
 
 # Cleanup old packages
 rm -f sakia-linux.zip sakia-linux.deb
