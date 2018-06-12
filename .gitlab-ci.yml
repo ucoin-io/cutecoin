@@ -10,7 +10,7 @@ variables:
 image: registry.duniter.org/cebash/duniterpy-builder:0.0.9
 
 before_script:
-  - sudo apt install -y zip
+  - sudo apt update; sudo apt install -y zip
 
 push_to_github:
   stage: github-sync
