@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS><TS version="2.0" language="fr" sourcelanguage="en">
+<!DOCTYPE TS>
+<TS version="2.0" language="fr" sourcelanguage="en">
 <context>
     <name>@default</name>
     <message>
@@ -20,7 +21,7 @@
     <message>
         <location filename="../../../src/cutecoin/gui/views/wot.py" line="293"/>
         <source>Send money</source>
-        <translation type="obsolete">Envoyer de l&apos;argent</translation>
+        <translation type="obsolete">Envoyer de l'argent</translation>
     </message>
     <message>
         <location filename="../../../src/cutecoin/gui/community_tab.py" line="310"/>
@@ -86,7 +87,7 @@
     <message>
         <location filename="../../../src/sakia/core/account.py" line="544"/>
         <source>Could not find user self certification.</source>
-        <translation type="obsolete">Impossible de trouver la certification personnelle de l&apos;utilisateur.</translation>
+        <translation type="obsolete">Impossible de trouver la certification personnelle de l'utilisateur.</translation>
     </message>
     <message>
         <location filename="../../../src/sakia/core/account.py" line="67"/>
@@ -205,7 +206,7 @@
     <message>
         <location filename="../../../src/sakia/gui/dialogs/certification/view.py" line="79"/>
         <source>Success sending certification</source>
-        <translation type="unfinished">Succès lors de l&apos;envoi de la certification</translation>
+        <translation type="unfinished">Succès lors de l'envoi de la certification</translation>
     </message>
     <message>
         <location filename="../../../src/sakia/gui/dialogs/certification/view.py" line="88"/>
@@ -215,7 +216,7 @@
     <message>
         <location filename="../../../src/sakia/gui/dialogs/certification/view.py" line="103"/>
         <source>Certifications sent : {nb_certifications}/{stock}</source>
-        <translation type="unfinished"></translation>
+        <translation>Certifications envoyées : {nb_certifications}/{stock}</translation>
     </message>
     <message>
         <location filename="../../../src/sakia/gui/dialogs/certification/view.py" line="110"/>
@@ -290,7 +291,7 @@
     </message>
     <message>
         <location filename="../../../src/cutecoin/gui/certification.py" line="58"/>
-        <source>Couldn&apos;t connect to network : {0}</source>
+        <source>Couldn't connect to network : {0}</source>
         <translation type="obsolete">Impossible de se connecter au réseau : {0}</translation>
     </message>
     <message>
@@ -311,7 +312,7 @@
     <message>
         <location filename="../../../src/sakia/gui/certification.py" line="127"/>
         <source>Success sending certification</source>
-        <translation type="obsolete">Succès lors de l&apos;envoi de la certification</translation>
+        <translation type="obsolete">Succès lors de l'envoi de la certification</translation>
     </message>
     <message>
         <location filename="../../../src/sakia/gui/certification.py" line="136"/>
@@ -331,7 +332,7 @@
     <message>
         <location filename="../../ui/certification.ui" line="116"/>
         <source>&amp;User public key</source>
-        <translation type="obsolete">Clé publique de l&apos;utilisateur</translation>
+        <translation type="obsolete">Clé publique de l'utilisateur</translation>
     </message>
     <message>
         <location filename="../../ui/certification.ui" line="161"/>
@@ -385,7 +386,7 @@
     <message>
         <location filename="../../ui/community_cfg.ui" line="46"/>
         <source>Please enter the address of a node :</source>
-        <translation type="obsolete">Veuillez entrer l&apos;adresse d&apos;un nœud :</translation>
+        <translation type="obsolete">Veuillez entrer l'adresse d'un nœud :</translation>
     </message>
     <message>
         <location filename="../../ui/community_cfg.ui" line="61"/>
@@ -493,15 +494,15 @@
     <message>
         <location filename="../../../src/sakia/gui/navigation/informations/view.py" line="85"/>
         <source>
-            &lt;table cellpadding=&quot;5&quot;&gt;
-            &lt;tr&gt;&lt;td align=&quot;right&quot;&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/div&gt;&lt;/td&gt;&lt;td&gt;{:} {:}&lt;/td&gt;&lt;/tr&gt;
-            &lt;tr&gt;&lt;td align=&quot;right&quot;&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:} {:}&lt;/td&gt;&lt;/tr&gt;
-            &lt;tr&gt;&lt;td align=&quot;right&quot;&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:}&lt;/td&gt;&lt;/tr&gt;
-            &lt;tr&gt;&lt;td align=&quot;right&quot;&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:} {:}&lt;/td&gt;&lt;/tr&gt;
-            &lt;tr&gt;&lt;td align=&quot;right&quot;&gt;&lt;b&gt;{:2.2%} / {:} days&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:}&lt;/td&gt;&lt;/tr&gt;
-            &lt;tr&gt;&lt;td align=&quot;right&quot;&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:}&lt;/td&gt;&lt;/tr&gt;
-            &lt;tr&gt;&lt;td align=&quot;right&quot;&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:}&lt;/td&gt;&lt;/tr&gt;
-            &lt;tr&gt;&lt;td align=&quot;right&quot;&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:}&lt;/td&gt;&lt;/tr&gt;
+            &lt;table cellpadding="5"&gt;
+            &lt;tr&gt;&lt;td align="right"&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/div&gt;&lt;/td&gt;&lt;td&gt;{:} {:}&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td align="right"&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:} {:}&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td align="right"&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:}&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td align="right"&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:} {:}&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td align="right"&gt;&lt;b&gt;{:2.2%} / {:} days&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:}&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td align="right"&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:}&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td align="right"&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:}&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td align="right"&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:}&lt;/td&gt;&lt;/tr&gt;
             &lt;/table&gt;
             </source>
         <translation type="unfinished"></translation>
@@ -549,10 +550,10 @@
     <message>
         <location filename="../../../src/sakia/gui/navigation/informations/view.py" line="134"/>
         <source>
-            &lt;table cellpadding=&quot;5&quot;&gt;
-            &lt;tr&gt;&lt;td align=&quot;right&quot;&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:}&lt;/td&gt;&lt;/tr&gt;
-            &lt;tr&gt;&lt;td align=&quot;right&quot;&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:}&lt;/td&gt;&lt;/tr&gt;
-            &lt;tr&gt;&lt;td align=&quot;right&quot;&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:}&lt;/td&gt;&lt;/tr&gt;
+            &lt;table cellpadding="5"&gt;
+            &lt;tr&gt;&lt;td align="right"&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:}&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td align="right"&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:}&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td align="right"&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:}&lt;/td&gt;&lt;/tr&gt;
             &lt;/table&gt;
             </source>
         <translation type="unfinished"></translation>
@@ -569,7 +570,7 @@
     </message>
     <message>
         <location filename="../../../src/sakia/gui/navigation/informations/view.py" line="134"/>
-        <source>UD&#xc4;&#x9e;(t) = UD&#xc4;&#x9e;(t-1) + c&#xc2;&#xb2;*M(t-1)/N(t-1)</source>
+        <source>UDÄ(t) = UDÄ(t-1) + cÂ²*M(t-1)/N(t-1)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -579,7 +580,7 @@
     </message>
     <message>
         <location filename="../../../src/sakia/gui/navigation/informations/view.py" line="134"/>
-        <source>{:} = {:} + {:2.0%}&#xc2;&#xb2;* {:} / {:}</source>
+        <source>{:} = {:} + {:2.0%}Â²* {:} / {:}</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -620,14 +621,14 @@
     <message>
         <location filename="../../../src/sakia/gui/navigation/informations/view.py" line="201"/>
         <source>
-            &lt;table cellpadding=&quot;5&quot;&gt;
-            &lt;tr&gt;&lt;td align=&quot;right&quot;&gt;&lt;b&gt;{:2.0%} / {:} days&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:}&lt;/td&gt;&lt;/tr&gt;
-            &lt;tr&gt;&lt;td align=&quot;right&quot;&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:} {:}&lt;/td&gt;&lt;/tr&gt;
-            &lt;tr&gt;&lt;td align=&quot;right&quot;&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:}&lt;/td&gt;&lt;/tr&gt;
-            &lt;tr&gt;&lt;td align=&quot;right&quot;&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:}&lt;/td&gt;&lt;/tr&gt;
-            &lt;tr&gt;&lt;td align=&quot;right&quot;&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:}&lt;/td&gt;&lt;/tr&gt;
-            &lt;tr&gt;&lt;td align=&quot;right&quot;&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:}&lt;/td&gt;&lt;/tr&gt;
-            &lt;tr&gt;&lt;td align=&quot;right&quot;&gt;&lt;b&gt;{:2.0%}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:}&lt;/td&gt;&lt;/tr&gt;
+            &lt;table cellpadding="5"&gt;
+            &lt;tr&gt;&lt;td align="right"&gt;&lt;b&gt;{:2.0%} / {:} days&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:}&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td align="right"&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:} {:}&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td align="right"&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:}&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td align="right"&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:}&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td align="right"&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:}&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td align="right"&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:}&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td align="right"&gt;&lt;b&gt;{:2.0%}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:}&lt;/td&gt;&lt;/tr&gt;
             &lt;/table&gt;
             </source>
         <translation type="unfinished"></translation>
@@ -665,20 +666,20 @@
     <message>
         <location filename="../../../src/sakia/gui/navigation/informations/view.py" line="201"/>
         <source>The percent of previous issuers to reach for personalized difficulty</source>
-        <translation type="unfinished">Le pourcentage d&apos;utilisateurs précédents atteignant la difficulté personnalisée</translation>
+        <translation type="unfinished">Le pourcentage d'utilisateurs précédents atteignant la difficulté personnalisée</translation>
     </message>
     <message>
         <location filename="../../../src/sakia/gui/navigation/informations/view.py" line="240"/>
         <source>
-            &lt;table cellpadding=&quot;5&quot;&gt;
-            &lt;tr&gt;&lt;td align=&quot;right&quot;&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:}&lt;/td&gt;&lt;/tr&gt;
-            &lt;tr&gt;&lt;td align=&quot;right&quot;&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:}&lt;/td&gt;&lt;/tr&gt;
-            &lt;tr&gt;&lt;td align=&quot;right&quot;&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:}&lt;/td&gt;&lt;/tr&gt;
-            &lt;tr&gt;&lt;td align=&quot;right&quot;&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:}&lt;/td&gt;&lt;/tr&gt;
-            &lt;tr&gt;&lt;td align=&quot;right&quot;&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:}&lt;/td&gt;&lt;/tr&gt;
-            &lt;tr&gt;&lt;td align=&quot;right&quot;&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:}&lt;/td&gt;&lt;/tr&gt;
-            &lt;tr&gt;&lt;td align=&quot;right&quot;&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:}&lt;/td&gt;&lt;/tr&gt;
-            &lt;tr&gt;&lt;td align=&quot;right&quot;&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:}&lt;/td&gt;&lt;/tr&gt;
+            &lt;table cellpadding="5"&gt;
+            &lt;tr&gt;&lt;td align="right"&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:}&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td align="right"&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:}&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td align="right"&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:}&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td align="right"&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:}&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td align="right"&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:}&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td align="right"&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:}&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td align="right"&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:}&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td align="right"&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:}&lt;/td&gt;&lt;/tr&gt;
             &lt;/table&gt;
             </source>
         <translation type="unfinished"></translation>
@@ -691,7 +692,7 @@
     <message>
         <location filename="../../../src/sakia/gui/navigation/informations/view.py" line="240"/>
         <source>Maximum age of a valid signature (in days)</source>
-        <translation type="unfinished">Age maximum d&apos;une signature valide (en jours)</translation>
+        <translation type="unfinished">Age maximum d'une signature valide (en jours)</translation>
     </message>
     <message>
         <location filename="../../../src/sakia/gui/navigation/informations/view.py" line="240"/>
@@ -716,7 +717,7 @@
     <message>
         <location filename="../../../src/sakia/gui/navigation/informations/view.py" line="240"/>
         <source>Maximum age of a valid membership (in days)</source>
-        <translation type="unfinished">Age maximum d&apos;un statut de membre valide (en jours)</translation>
+        <translation type="unfinished">Age maximum d'un statut de membre valide (en jours)</translation>
     </message>
     <message>
         <location filename="../../../src/sakia/gui/navigation/informations/view.py" line="240"/>
@@ -759,17 +760,17 @@
     <message>
         <location filename="../../../src/cutecoin/gui/community_tab.py" line="172"/>
         <source>Success sending membership demand</source>
-        <translation type="obsolete">Succès lors de l&apos;envoi d&apos;une demande de membre</translation>
+        <translation type="obsolete">Succès lors de l'envoi d'une demande de membre</translation>
     </message>
     <message>
         <location filename="../../../src/cutecoin/gui/community_tab.py" line="174"/>
         <source>Join demand error</source>
-        <translation type="obsolete">Erreur lors de l&apos;envoi d&apos;une demande de membre</translation>
+        <translation type="obsolete">Erreur lors de l'envoi d'une demande de membre</translation>
     </message>
     <message>
         <location filename="../../../src/cutecoin/gui/community_tab.py" line="177"/>
         <source>Key not sent to community</source>
-        <translation type="obsolete">La clé n&apos;a pas pu être envoyée à la communauté</translation>
+        <translation type="obsolete">La clé n'a pas pu être envoyée à la communauté</translation>
     </message>
     <message>
         <location filename="../../../src/cutecoin/gui/community_tab.py" line="226"/>
@@ -778,7 +779,7 @@
     </message>
     <message>
         <location filename="../../../src/cutecoin/gui/community_tab.py" line="226"/>
-        <source>Couldn&apos;t connect to network : {0}</source>
+        <source>Couldn't connect to network : {0}</source>
         <translation type="obsolete">Impossible de se connecter au réseau : {0}</translation>
     </message>
     <message>
@@ -789,12 +790,12 @@
     <message>
         <location filename="../../../src/cutecoin/gui/community_tab.py" line="202"/>
         <source>Success sending leaving demand</source>
-        <translation type="obsolete">Succès lors de l&apos;envoi de la demande pour quitter la communauté</translation>
+        <translation type="obsolete">Succès lors de l'envoi de la demande pour quitter la communauté</translation>
     </message>
     <message>
         <location filename="../../../src/cutecoin/gui/community_tab.py" line="204"/>
         <source>Leaving demand error</source>
-        <translation type="obsolete">Erreur lors de l&apos;envoi de la demande pour quitter la communauté</translation>
+        <translation type="obsolete">Erreur lors de l'envoi de la demande pour quitter la communauté</translation>
     </message>
     <message>
         <location filename="../../../src/cutecoin/gui/community_tab.py" line="263"/>
@@ -831,7 +832,7 @@ Publier votre UID ne peut être annulé.</translation>
     <message>
         <location filename="../../../src/cutecoin/gui/community_tab.py" line="220"/>
         <source>UID Publishing</source>
-        <translation type="obsolete">Publication de l&apos;UID</translation>
+        <translation type="obsolete">Publication de l'UID</translation>
     </message>
     <message>
         <location filename="../../../src/cutecoin/gui/community_tab.py" line="220"/>
@@ -840,9 +841,9 @@ Publier votre UID ne peut être annulé.</translation>
     </message>
     <message>
         <location filename="../../../src/cutecoin/gui/community_tab.py" line="177"/>
-        <source>&quot;Your key wasn&apos;t sent in the community.
-You can&apos;t request a membership.</source>
-        <translation type="obsolete">Votre clé publique n&apos;a pas été envoyée à la communauté.
+        <source>"Your key wasn't sent in the community.
+You can't request a membership.</source>
+        <translation type="obsolete">Votre clé publique n'a pas été envoyée à la communauté.
 Vous ne pouvez pas envoyer de requête de membre.</translation>
     </message>
     <message>
@@ -872,7 +873,7 @@ Le processus pour rejoindre la communauté devrait être refait à zéro.</trans
     <message>
         <location filename="../../../src/cutecoin/gui/community_tab.py" line="109"/>
         <source>Send money</source>
-        <translation type="obsolete">Envoyer de l&apos;argent</translation>
+        <translation type="obsolete">Envoyer de l'argent</translation>
     </message>
     <message>
         <location filename="../../../src/cutecoin/gui/community_tab.py" line="113"/>
@@ -909,7 +910,7 @@ Publishing your UID can be canceled by Revoke UID.</source>
         <location filename="../../../src/cutecoin/gui/community_tab.py" line="235"/>
         <source>Are you sure ?
 Revoking your UID can only success if it is not already validated by the network.</source>
-        <translation type="obsolete">Etes-vous sûr(e) ? Révoquer votre UID ne peut réussir que s&apos;il n&apos;a pas été déjà validé par le réseau.</translation>
+        <translation type="obsolete">Etes-vous sûr(e) ? Révoquer votre UID ne peut réussir que s'il n'a pas été déjà validé par le réseau.</translation>
     </message>
     <message>
         <location filename="../../../src/cutecoin/gui/community_tab.py" line="253"/>
@@ -1015,7 +1016,7 @@ Revoking your UID can only success if it is not already validated by the network
     <message>
         <location filename="../../../src/sakia/gui/community_view.py" line="334"/>
         <source>Renew membership</source>
-        <translation type="obsolete">Renouveler l&apos;adhésion</translation>
+        <translation type="obsolete">Renouveler l'adhésion</translation>
     </message>
     <message>
         <location filename="../../../src/cutecoin/gui/community_view.py" line="46"/>
@@ -1090,7 +1091,7 @@ Revoking your UID can only success if it is not already validated by the network
     <message>
         <location filename="../../../src/sakia/gui/community_view.py" line="340"/>
         <source>Send membership demand</source>
-        <translation type="obsolete">Envoyer une demande d&apos;adhésion</translation>
+        <translation type="obsolete">Envoyer une demande d'adhésion</translation>
     </message>
     <message>
         <location filename="../../../src/sakia/gui/community_view.py" line="418"/>
@@ -1100,7 +1101,7 @@ Revoking your UID can only success if it is not already validated by the network
     <message>
         <location filename="../../../src/sakia/gui/community_view.py" line="374"/>
         <source>Success sending Membership demand</source>
-        <translation type="obsolete">Envoi de la demande d&apos;adhésion réussi</translation>
+        <translation type="obsolete">Envoi de la demande d'adhésion réussi</translation>
     </message>
     <message>
         <location filename="../../../src/sakia/gui/community_view.py" line="385"/>
@@ -1159,7 +1160,7 @@ Le processus pour rejoindre la communauté devrait être refait à zéro.</trans
     <message>
         <location filename="../../../src/sakia/gui/community_view.py" line="102"/>
         <source>Show explorer</source>
-        <translation type="obsolete">Afficher l&apos;explorateur</translation>
+        <translation type="obsolete">Afficher l'explorateur</translation>
     </message>
     <message>
         <location filename="../../../src/sakia/gui/community_view.py" line="103"/>
@@ -1276,7 +1277,7 @@ Le processus pour rejoindre la communauté devrait être refait à zéro.</trans
     <message>
         <location filename="../../../src/sakia/gui/dialogs/connection_cfg/view.py" line="101"/>
         <source>UID broadcast</source>
-        <translation type="unfinished">Diffusion de l&apos;UID</translation>
+        <translation type="unfinished">Diffusion de l'UID</translation>
     </message>
     <message>
         <location filename="../../../src/sakia/gui/dialogs/connection_cfg/view.py" line="96"/>
@@ -1451,17 +1452,17 @@ Le transfert de monnaie sera annulé et non envoyé.</translation>
     <message>
         <location filename="../../../src/sakia/gui/graphs/graph_tab.py" line="89"/>
         <source>
-                    &lt;table cellpadding=&quot;5&quot;&gt;
-                    &lt;tr&gt;&lt;td align=&quot;right&quot;&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:}&lt;/td&gt;&lt;/tr&gt;
-                    &lt;tr&gt;&lt;td align=&quot;right&quot;&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:}&lt;/td&gt;&lt;/tr&gt;
-                    &lt;tr&gt;&lt;td align=&quot;right&quot;&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:}&lt;/td&gt;&lt;/tr&gt;
+                    &lt;table cellpadding="5"&gt;
+                    &lt;tr&gt;&lt;td align="right"&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:}&lt;/td&gt;&lt;/tr&gt;
+                    &lt;tr&gt;&lt;td align="right"&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:}&lt;/td&gt;&lt;/tr&gt;
+                    &lt;tr&gt;&lt;td align="right"&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:}&lt;/td&gt;&lt;/tr&gt;
                     &lt;/table&gt;
                     </source>
         <translation type="obsolete">
-                    &lt;table cellpadding=&quot;5&quot;&gt;
-                    &lt;tr&gt;&lt;td align=&quot;right&quot;&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:}&lt;/td&gt;&lt;/tr&gt;
-                    &lt;tr&gt;&lt;td align=&quot;right&quot;&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:}&lt;/td&gt;&lt;/tr&gt;
-                    &lt;tr&gt;&lt;td align=&quot;right&quot;&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:}&lt;/td&gt;&lt;/tr&gt;
+                    &lt;table cellpadding="5"&gt;
+                    &lt;tr&gt;&lt;td align="right"&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:}&lt;/td&gt;&lt;/tr&gt;
+                    &lt;tr&gt;&lt;td align="right"&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:}&lt;/td&gt;&lt;/tr&gt;
+                    &lt;tr&gt;&lt;td align="right"&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:}&lt;/td&gt;&lt;/tr&gt;
                     &lt;/table&gt;
                     </translation>
     </message>
@@ -1493,17 +1494,17 @@ Le transfert de monnaie sera annulé et non envoyé.</translation>
     <message>
         <location filename="../../../src/sakia/gui/graphs/graph_tab.py" line="107"/>
         <source>
-                &lt;table cellpadding=&quot;5&quot;&gt;
-                &lt;tr&gt;&lt;td align=&quot;right&quot;&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:}&lt;/td&gt;&lt;/tr&gt;
-                &lt;tr&gt;&lt;td align=&quot;right&quot;&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;
-                &lt;tr&gt;&lt;td align=&quot;right&quot;&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:}&lt;/td&gt;&lt;/tr&gt;
+                &lt;table cellpadding="5"&gt;
+                &lt;tr&gt;&lt;td align="right"&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:}&lt;/td&gt;&lt;/tr&gt;
+                &lt;tr&gt;&lt;td align="right"&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;
+                &lt;tr&gt;&lt;td align="right"&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:}&lt;/td&gt;&lt;/tr&gt;
                 &lt;/table&gt;
                 </source>
         <translation type="obsolete">
-                &lt;table cellpadding=&quot;5&quot;&gt;
-                &lt;tr&gt;&lt;td align=&quot;right&quot;&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:}&lt;/td&gt;&lt;/tr&gt;
-                &lt;tr&gt;&lt;td align=&quot;right&quot;&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;
-                &lt;tr&gt;&lt;td align=&quot;right&quot;&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:}&lt;/td&gt;&lt;/tr&gt;
+                &lt;table cellpadding="5"&gt;
+                &lt;tr&gt;&lt;td align="right"&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:}&lt;/td&gt;&lt;/tr&gt;
+                &lt;tr&gt;&lt;td align="right"&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;
+                &lt;tr&gt;&lt;td align="right"&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:}&lt;/td&gt;&lt;/tr&gt;
                 &lt;/table&gt;
                 </translation>
     </message>
@@ -1611,8 +1612,8 @@ Le transfert de monnaie sera annulé et non envoyé.</translation>
     </message>
     <message>
         <location filename="../../ui/homescreen.ui" line="119"/>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt; font-weight:600;&quot;&gt;Not Connected&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="obsolete">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt; font-weight:600;&quot;&gt;Non Connecté&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=" font-size:12pt; font-weight:600;"&gt;Not Connected&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation type="obsolete">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=" font-size:12pt; font-weight:600;"&gt;Non Connecté&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../../ui/homescreen.ui" line="126"/>
@@ -1688,7 +1689,7 @@ Le transfert de monnaie sera annulé et non envoyé.</translation>
     <message>
         <location filename="../../../src/sakia/gui/identities_tab.py" line="32"/>
         <source>Search direct certifications</source>
-        <translation type="obsolete">Rechercher des certifications &quot;directes&quot;</translation>
+        <translation type="obsolete">Rechercher des certifications "directes"</translation>
     </message>
     <message>
         <location filename="../../../src/sakia/gui/identities_tab.py" line="33"/>
@@ -1744,7 +1745,7 @@ Le transfert de monnaie sera annulé et non envoyé.</translation>
     <message>
         <location filename="../../../src/sakia/gui/navigation/identities/view.py" line="15"/>
         <source>Search direct certifications</source>
-        <translation type="unfinished">Rechercher des certifications &quot;directes&quot;</translation>
+        <translation type="unfinished">Rechercher des certifications "directes"</translation>
     </message>
     <message>
         <location filename="../../../src/sakia/gui/navigation/identities/view.py" line="16"/>
@@ -1802,7 +1803,7 @@ Le transfert de monnaie sera annulé et non envoyé.</translation>
     <message>
         <location filename="../../../src/sakia/gui/import_account.py" line="69"/>
         <source>File is not an account format</source>
-        <translation type="obsolete">Le fichier n&apos;est pas au format de compte</translation>
+        <translation type="obsolete">Le fichier n'est pas au format de compte</translation>
     </message>
     <message>
         <location filename="../../ui/import_account.ui" line="14"/>
@@ -1858,23 +1859,23 @@ Le transfert de monnaie sera annulé et non envoyé.</translation>
     <message>
         <location filename="../../../src/cutecoin/gui/informations_tab.py" line="121"/>
         <source>
-                &lt;table cellpadding=&quot;5&quot;&gt;
-                &lt;tr&gt;&lt;td align=&quot;right&quot;&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/div&gt;&lt;/td&gt;&lt;td&gt;{:} {:}&lt;/td&gt;&lt;/tr&gt;
-                &lt;tr&gt;&lt;td align=&quot;right&quot;&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:} {:}&lt;/td&gt;&lt;/tr&gt;
-                &lt;tr&gt;&lt;td align=&quot;right&quot;&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:}&lt;/td&gt;&lt;/tr&gt;
-                &lt;tr&gt;&lt;td align=&quot;right&quot;&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:} {:}&lt;/td&gt;&lt;/tr&gt;
-                &lt;tr&gt;&lt;td align=&quot;right&quot;&gt;&lt;b&gt;{:2.2%} / {:} days&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:}&lt;/td&gt;&lt;/tr&gt;
-                &lt;tr&gt;&lt;td align=&quot;right&quot;&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:}&lt;/td&gt;&lt;/tr&gt;
+                &lt;table cellpadding="5"&gt;
+                &lt;tr&gt;&lt;td align="right"&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/div&gt;&lt;/td&gt;&lt;td&gt;{:} {:}&lt;/td&gt;&lt;/tr&gt;
+                &lt;tr&gt;&lt;td align="right"&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:} {:}&lt;/td&gt;&lt;/tr&gt;
+                &lt;tr&gt;&lt;td align="right"&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:}&lt;/td&gt;&lt;/tr&gt;
+                &lt;tr&gt;&lt;td align="right"&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:} {:}&lt;/td&gt;&lt;/tr&gt;
+                &lt;tr&gt;&lt;td align="right"&gt;&lt;b&gt;{:2.2%} / {:} days&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:}&lt;/td&gt;&lt;/tr&gt;
+                &lt;tr&gt;&lt;td align="right"&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:}&lt;/td&gt;&lt;/tr&gt;
                 &lt;/table&gt;
                 </source>
         <translation type="obsolete">
-                &lt;table cellpadding=&quot;5&quot;&gt;
-                &lt;tr&gt;&lt;td align=&quot;right&quot;&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/div&gt;&lt;/td&gt;&lt;td&gt;{:} {:}&lt;/td&gt;&lt;/tr&gt;
-                &lt;tr&gt;&lt;td align=&quot;right&quot;&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:} {:}&lt;/td&gt;&lt;/tr&gt;
-                &lt;tr&gt;&lt;td align=&quot;right&quot;&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:}&lt;/td&gt;&lt;/tr&gt;
-                &lt;tr&gt;&lt;td align=&quot;right&quot;&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:} {:}&lt;/td&gt;&lt;/tr&gt;
-                &lt;tr&gt;&lt;td align=&quot;right&quot;&gt;&lt;b&gt;{:2.2%} / {:} jours&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:}&lt;/td&gt;&lt;/tr&gt;
-                &lt;tr&gt;&lt;td align=&quot;right&quot;&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:}&lt;/td&gt;&lt;/tr&gt;
+                &lt;table cellpadding="5"&gt;
+                &lt;tr&gt;&lt;td align="right"&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/div&gt;&lt;/td&gt;&lt;td&gt;{:} {:}&lt;/td&gt;&lt;/tr&gt;
+                &lt;tr&gt;&lt;td align="right"&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:} {:}&lt;/td&gt;&lt;/tr&gt;
+                &lt;tr&gt;&lt;td align="right"&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:}&lt;/td&gt;&lt;/tr&gt;
+                &lt;tr&gt;&lt;td align="right"&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:} {:}&lt;/td&gt;&lt;/tr&gt;
+                &lt;tr&gt;&lt;td align="right"&gt;&lt;b&gt;{:2.2%} / {:} jours&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:}&lt;/td&gt;&lt;/tr&gt;
+                &lt;tr&gt;&lt;td align="right"&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:}&lt;/td&gt;&lt;/tr&gt;
                 &lt;/table&gt;
                 </translation>
     </message>
@@ -1941,27 +1942,27 @@ Le transfert de monnaie sera annulé et non envoyé.</translation>
     <message>
         <location filename="../../../src/sakia/gui/informations_tab.py" line="231"/>
         <source>
-            &lt;table cellpadding=&quot;5&quot;&gt;
-            &lt;tr&gt;&lt;td align=&quot;right&quot;&gt;&lt;b&gt;{:2.0%} / {:} days&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:}&lt;/td&gt;&lt;/tr&gt;
-            &lt;tr&gt;&lt;td align=&quot;right&quot;&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:} {:}&lt;/td&gt;&lt;/tr&gt;
-            &lt;tr&gt;&lt;td align=&quot;right&quot;&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:}&lt;/td&gt;&lt;/tr&gt;
-            &lt;tr&gt;&lt;td align=&quot;right&quot;&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:}&lt;/td&gt;&lt;/tr&gt;
-            &lt;tr&gt;&lt;td align=&quot;right&quot;&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:}&lt;/td&gt;&lt;/tr&gt;
-            &lt;tr&gt;&lt;td align=&quot;right&quot;&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:}&lt;/td&gt;&lt;/tr&gt;
-            &lt;tr&gt;&lt;td align=&quot;right&quot;&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:}&lt;/td&gt;&lt;/tr&gt;
-            &lt;tr&gt;&lt;td align=&quot;right&quot;&gt;&lt;b&gt;{:2.0%}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:}&lt;/td&gt;&lt;/tr&gt;
+            &lt;table cellpadding="5"&gt;
+            &lt;tr&gt;&lt;td align="right"&gt;&lt;b&gt;{:2.0%} / {:} days&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:}&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td align="right"&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:} {:}&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td align="right"&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:}&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td align="right"&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:}&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td align="right"&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:}&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td align="right"&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:}&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td align="right"&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:}&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td align="right"&gt;&lt;b&gt;{:2.0%}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:}&lt;/td&gt;&lt;/tr&gt;
             &lt;/table&gt;
             </source>
         <translation type="obsolete">
-            &lt;table cellpadding=&quot;5&quot;&gt;
-            &lt;tr&gt;&lt;td align=&quot;right&quot;&gt;&lt;b&gt;{:2.0%} / {:} jours&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:}&lt;/td&gt;&lt;/tr&gt;
-            &lt;tr&gt;&lt;td align=&quot;right&quot;&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:} {:}&lt;/td&gt;&lt;/tr&gt;
-            &lt;tr&gt;&lt;td align=&quot;right&quot;&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:}&lt;/td&gt;&lt;/tr&gt;
-            &lt;tr&gt;&lt;td align=&quot;right&quot;&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:}&lt;/td&gt;&lt;/tr&gt;
-            &lt;tr&gt;&lt;td align=&quot;right&quot;&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:}&lt;/td&gt;&lt;/tr&gt;
-            &lt;tr&gt;&lt;td align=&quot;right&quot;&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:}&lt;/td&gt;&lt;/tr&gt;
-            &lt;tr&gt;&lt;td align=&quot;right&quot;&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:}&lt;/td&gt;&lt;/tr&gt;
-            &lt;tr&gt;&lt;td align=&quot;right&quot;&gt;&lt;b&gt;{:2.0%}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:}&lt;/td&gt;&lt;/tr&gt;
+            &lt;table cellpadding="5"&gt;
+            &lt;tr&gt;&lt;td align="right"&gt;&lt;b&gt;{:2.0%} / {:} jours&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:}&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td align="right"&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:} {:}&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td align="right"&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:}&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td align="right"&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:}&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td align="right"&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:}&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td align="right"&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:}&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td align="right"&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:}&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td align="right"&gt;&lt;b&gt;{:2.0%}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:}&lt;/td&gt;&lt;/tr&gt;
             &lt;/table&gt;
             </translation>
     </message>
@@ -2003,7 +2004,7 @@ Le transfert de monnaie sera annulé et non envoyé.</translation>
     <message>
         <location filename="../../../src/sakia/gui/informations_tab.py" line="231"/>
         <source>The percent of previous issuers to reach for personalized difficulty</source>
-        <translation type="obsolete">Le pourcentage d&apos;utilisateurs précédents atteignant la difficulté personnalisée</translation>
+        <translation type="obsolete">Le pourcentage d'utilisateurs précédents atteignant la difficulté personnalisée</translation>
     </message>
     <message>
         <location filename="../../../src/sakia/gui/informations_tab.py" line="234"/>
@@ -2013,7 +2014,7 @@ Le transfert de monnaie sera annulé et non envoyé.</translation>
     <message>
         <location filename="../../../src/sakia/gui/informations_tab.py" line="266"/>
         <source>Maximum age of a valid signature (in days)</source>
-        <translation type="obsolete">Age maximum d&apos;une signature valide (en jours)</translation>
+        <translation type="obsolete">Age maximum d'une signature valide (en jours)</translation>
     </message>
     <message>
         <location filename="../../../src/sakia/gui/informations_tab.py" line="266"/>
@@ -2028,7 +2029,7 @@ Le transfert de monnaie sera annulé et non envoyé.</translation>
     <message>
         <location filename="../../../src/sakia/gui/informations_tab.py" line="266"/>
         <source>Maximum age of a valid membership (in days)</source>
-        <translation type="obsolete">Age maximum d&apos;un statut de membre valide (en jours)</translation>
+        <translation type="obsolete">Age maximum d'un statut de membre valide (en jours)</translation>
     </message>
     <message>
         <location filename="../../../src/sakia/gui/informations_tab.py" line="266"/>
@@ -2062,7 +2063,7 @@ Le transfert de monnaie sera annulé et non envoyé.</translation>
     </message>
     <message>
         <location filename="../../../src/cutecoin/gui/informations_tab.py" line="140"/>
-        <source>UD(t+1) = MAX { UD(t) ; c &#xc3;&#x97; M(t) / N(t) }</source>
+        <source>UD(t+1) = MAX { UD(t) ; c Ã M(t) / N(t) }</source>
         <translation type="obsolete">DU(t+1) = MAX { DU(t) ; c Ã M(t) / N(t) }</translation>
     </message>
     <message>
@@ -2078,25 +2079,25 @@ Le transfert de monnaie sera annulé et non envoyé.</translation>
     <message>
         <location filename="../../../src/sakia/gui/informations_tab.py" line="103"/>
         <source>
-                &lt;table cellpadding=&quot;5&quot;&gt;
-                &lt;tr&gt;&lt;td align=&quot;right&quot;&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/div&gt;&lt;/td&gt;&lt;td&gt;{:} {:}&lt;/td&gt;&lt;/tr&gt;
-                &lt;tr&gt;&lt;td align=&quot;right&quot;&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:} {:}&lt;/td&gt;&lt;/tr&gt;
-                &lt;tr&gt;&lt;td align=&quot;right&quot;&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:}&lt;/td&gt;&lt;/tr&gt;
-                &lt;tr&gt;&lt;td align=&quot;right&quot;&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:} {:}&lt;/td&gt;&lt;/tr&gt;
-                &lt;tr&gt;&lt;td align=&quot;right&quot;&gt;&lt;b&gt;{:2.2%} / {:} days&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:}&lt;/td&gt;&lt;/tr&gt;
-                &lt;tr&gt;&lt;td align=&quot;right&quot;&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:}&lt;/td&gt;&lt;/tr&gt;
-                &lt;tr&gt;&lt;td align=&quot;right&quot;&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:}&lt;/td&gt;&lt;/tr&gt;
+                &lt;table cellpadding="5"&gt;
+                &lt;tr&gt;&lt;td align="right"&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/div&gt;&lt;/td&gt;&lt;td&gt;{:} {:}&lt;/td&gt;&lt;/tr&gt;
+                &lt;tr&gt;&lt;td align="right"&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:} {:}&lt;/td&gt;&lt;/tr&gt;
+                &lt;tr&gt;&lt;td align="right"&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:}&lt;/td&gt;&lt;/tr&gt;
+                &lt;tr&gt;&lt;td align="right"&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:} {:}&lt;/td&gt;&lt;/tr&gt;
+                &lt;tr&gt;&lt;td align="right"&gt;&lt;b&gt;{:2.2%} / {:} days&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:}&lt;/td&gt;&lt;/tr&gt;
+                &lt;tr&gt;&lt;td align="right"&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:}&lt;/td&gt;&lt;/tr&gt;
+                &lt;tr&gt;&lt;td align="right"&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:}&lt;/td&gt;&lt;/tr&gt;
                 &lt;/table&gt;
                 </source>
         <translation type="obsolete">
-                &lt;table cellpadding=&quot;5&quot;&gt;
-                &lt;tr&gt;&lt;td align=&quot;right&quot;&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/div&gt;&lt;/td&gt;&lt;td&gt;{:} {:}&lt;/td&gt;&lt;/tr&gt;
-                &lt;tr&gt;&lt;td align=&quot;right&quot;&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:} {:}&lt;/td&gt;&lt;/tr&gt;
-                &lt;tr&gt;&lt;td align=&quot;right&quot;&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:}&lt;/td&gt;&lt;/tr&gt;
-                &lt;tr&gt;&lt;td align=&quot;right&quot;&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:} {:}&lt;/td&gt;&lt;/tr&gt;
-                &lt;tr&gt;&lt;td align=&quot;right&quot;&gt;&lt;b&gt;{:2.2%} / {:} jours&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:}&lt;/td&gt;&lt;/tr&gt;
-                &lt;tr&gt;&lt;td align=&quot;right&quot;&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:}&lt;/td&gt;&lt;/tr&gt;
-                &lt;tr&gt;&lt;td align=&quot;right&quot;&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:}&lt;/td&gt;&lt;/tr
+                &lt;table cellpadding="5"&gt;
+                &lt;tr&gt;&lt;td align="right"&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/div&gt;&lt;/td&gt;&lt;td&gt;{:} {:}&lt;/td&gt;&lt;/tr&gt;
+                &lt;tr&gt;&lt;td align="right"&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:} {:}&lt;/td&gt;&lt;/tr&gt;
+                &lt;tr&gt;&lt;td align="right"&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:}&lt;/td&gt;&lt;/tr&gt;
+                &lt;tr&gt;&lt;td align="right"&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:} {:}&lt;/td&gt;&lt;/tr&gt;
+                &lt;tr&gt;&lt;td align="right"&gt;&lt;b&gt;{:2.2%} / {:} jours&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:}&lt;/td&gt;&lt;/tr&gt;
+                &lt;tr&gt;&lt;td align="right"&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:}&lt;/td&gt;&lt;/tr&gt;
+                &lt;tr&gt;&lt;td align="right"&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:}&lt;/td&gt;&lt;/tr
                 &lt;/table&gt;
                 </translation>
     </message>
@@ -2108,27 +2109,27 @@ Le transfert de monnaie sera annulé et non envoyé.</translation>
     <message>
         <location filename="../../../src/sakia/gui/informations_tab.py" line="139"/>
         <source>
-                &lt;table cellpadding=&quot;5&quot;&gt;
-                &lt;tr&gt;&lt;td align=&quot;right&quot;&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/div&gt;&lt;/td&gt;&lt;td&gt;{:} {:}&lt;/td&gt;&lt;/tr&gt;
-                &lt;tr&gt;&lt;td align=&quot;right&quot;&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:} {:}&lt;/td&gt;&lt;/tr&gt;
-                &lt;tr&gt;&lt;td align=&quot;right&quot;&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:}&lt;/td&gt;&lt;/tr&gt;
-                &lt;tr&gt;&lt;td align=&quot;right&quot;&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:} {:}&lt;/td&gt;&lt;/tr&gt;
-                &lt;tr&gt;&lt;td align=&quot;right&quot;&gt;&lt;b&gt;{:2.2%} / {:} days&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:}&lt;/td&gt;&lt;/tr&gt;
-                &lt;tr&gt;&lt;td align=&quot;right&quot;&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:}&lt;/td&gt;&lt;/tr&gt;
-                &lt;tr&gt;&lt;td align=&quot;right&quot;&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:}&lt;/td&gt;&lt;/tr&gt;
-                &lt;tr&gt;&lt;td align=&quot;right&quot;&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:}&lt;/td&gt;&lt;/tr&gt;
+                &lt;table cellpadding="5"&gt;
+                &lt;tr&gt;&lt;td align="right"&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/div&gt;&lt;/td&gt;&lt;td&gt;{:} {:}&lt;/td&gt;&lt;/tr&gt;
+                &lt;tr&gt;&lt;td align="right"&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:} {:}&lt;/td&gt;&lt;/tr&gt;
+                &lt;tr&gt;&lt;td align="right"&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:}&lt;/td&gt;&lt;/tr&gt;
+                &lt;tr&gt;&lt;td align="right"&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:} {:}&lt;/td&gt;&lt;/tr&gt;
+                &lt;tr&gt;&lt;td align="right"&gt;&lt;b&gt;{:2.2%} / {:} days&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:}&lt;/td&gt;&lt;/tr&gt;
+                &lt;tr&gt;&lt;td align="right"&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:}&lt;/td&gt;&lt;/tr&gt;
+                &lt;tr&gt;&lt;td align="right"&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:}&lt;/td&gt;&lt;/tr&gt;
+                &lt;tr&gt;&lt;td align="right"&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:}&lt;/td&gt;&lt;/tr&gt;
                 &lt;/table&gt;
                 </source>
         <translation type="obsolete">
-                &lt;table cellpadding=&quot;5&quot;&gt;
-                &lt;tr&gt;&lt;td align=&quot;right&quot;&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/div&gt;&lt;/td&gt;&lt;td&gt;{:} {:}&lt;/td&gt;&lt;/tr&gt;
-                &lt;tr&gt;&lt;td align=&quot;right&quot;&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:} {:}&lt;/td&gt;&lt;/tr&gt;
-                &lt;tr&gt;&lt;td align=&quot;right&quot;&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:}&lt;/td&gt;&lt;/tr&gt;
-                &lt;tr&gt;&lt;td align=&quot;right&quot;&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:} {:}&lt;/td&gt;&lt;/tr&gt;
-                &lt;tr&gt;&lt;td align=&quot;right&quot;&gt;&lt;b&gt;{:2.2%} / {:} jours&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:}&lt;/td&gt;&lt;/tr&gt;
-                &lt;tr&gt;&lt;td align=&quot;right&quot;&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:}&lt;/td&gt;&lt;/tr&gt;
-                &lt;tr&gt;&lt;td align=&quot;right&quot;&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:}&lt;/td&gt;&lt;/tr&gt;
-                &lt;tr&gt;&lt;td align=&quot;right&quot;&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:}&lt;/td&gt;&lt;/tr&gt;
+                &lt;table cellpadding="5"&gt;
+                &lt;tr&gt;&lt;td align="right"&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/div&gt;&lt;/td&gt;&lt;td&gt;{:} {:}&lt;/td&gt;&lt;/tr&gt;
+                &lt;tr&gt;&lt;td align="right"&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:} {:}&lt;/td&gt;&lt;/tr&gt;
+                &lt;tr&gt;&lt;td align="right"&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:}&lt;/td&gt;&lt;/tr&gt;
+                &lt;tr&gt;&lt;td align="right"&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:} {:}&lt;/td&gt;&lt;/tr&gt;
+                &lt;tr&gt;&lt;td align="right"&gt;&lt;b&gt;{:2.2%} / {:} jours&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:}&lt;/td&gt;&lt;/tr&gt;
+                &lt;tr&gt;&lt;td align="right"&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:}&lt;/td&gt;&lt;/tr&gt;
+                &lt;tr&gt;&lt;td align="right"&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:}&lt;/td&gt;&lt;/tr&gt;
+                &lt;tr&gt;&lt;td align="right"&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:}&lt;/td&gt;&lt;/tr&gt;
                 &lt;/table&gt;
                 </translation>
     </message>
@@ -2375,11 +2376,11 @@ Le transfert de monnaie sera annulé et non envoyé.</translation>
         <location filename="../../../src/cutecoin/gui/mainwindow.py" line="246"/>
         <source>
             &lt;p&gt;&lt;b&gt;{version_info}&lt;/b&gt;&lt;/p&gt;
-            &lt;p&gt;&lt;a href=&quot;{version_url}&quot;&gt;Download link&lt;/a&gt;&lt;/p&gt;
+            &lt;p&gt;&lt;a href="{version_url}"&gt;Download link&lt;/a&gt;&lt;/p&gt;
             </source>
         <translation type="obsolete">
             &lt;p&gt;&lt;b&gt;{version_info}&lt;/b&gt;&lt;/p&gt;
-            &lt;p&gt;&lt;a href=&quot;{version_url}&quot;&gt;Lien de téléchargement&lt;/a&gt;&lt;/p&gt;
+            &lt;p&gt;&lt;a href="{version_url}"&gt;Lien de téléchargement&lt;/a&gt;&lt;/p&gt;
             </translation>
     </message>
     <message>
@@ -2520,7 +2521,7 @@ Le transfert de monnaie sera annulé et non envoyé.</translation>
     <message>
         <location filename="../../../src/sakia/gui/member.py" line="97"/>
         <source>Join date</source>
-        <translation type="obsolete">Date d&apos;inscription</translation>
+        <translation type="obsolete">Date d'inscription</translation>
     </message>
     <message>
         <location filename="../../../src/sakia/gui/member.py" line="130"/>
@@ -2535,16 +2536,16 @@ Le transfert de monnaie sera annulé et non envoyé.</translation>
     <message>
         <location filename="../../../src/sakia/gui/member.py" line="92"/>
         <source>
-                &lt;table cellpadding=&quot;5&quot;&gt;
-                &lt;tr&gt;&lt;td align=&quot;right&quot;&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/div&gt;&lt;/td&gt;&lt;td&gt;{:}&lt;/td&gt;&lt;/tr&gt;
-                &lt;tr&gt;&lt;td align=&quot;right&quot;&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/div&gt;&lt;/td&gt;&lt;td&gt;{:}&lt;/td&gt;&lt;/tr&gt;
-                &lt;tr&gt;&lt;td align=&quot;right&quot;&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/div&gt;&lt;/td&gt;&lt;td&gt;{:}&lt;/td&gt;&lt;/tr&gt;
+                &lt;table cellpadding="5"&gt;
+                &lt;tr&gt;&lt;td align="right"&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/div&gt;&lt;/td&gt;&lt;td&gt;{:}&lt;/td&gt;&lt;/tr&gt;
+                &lt;tr&gt;&lt;td align="right"&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/div&gt;&lt;/td&gt;&lt;td&gt;{:}&lt;/td&gt;&lt;/tr&gt;
+                &lt;tr&gt;&lt;td align="right"&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/div&gt;&lt;/td&gt;&lt;td&gt;{:}&lt;/td&gt;&lt;/tr&gt;
                 </source>
         <translation type="obsolete">
-                &lt;table cellpadding=&quot;5&quot;&gt;
-                &lt;tr&gt;&lt;td align=&quot;right&quot;&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/div&gt;&lt;/td&gt;&lt;td&gt;{:}&lt;/td&gt;&lt;/tr&gt;
-                &lt;tr&gt;&lt;td align=&quot;right&quot;&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/div&gt;&lt;/td&gt;&lt;td&gt;{:}&lt;/td&gt;&lt;/tr&gt;
-                &lt;tr&gt;&lt;td align=&quot;right&quot;&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/div&gt;&lt;/td&gt;&lt;td&gt;{:}&lt;/td&gt;&lt;/tr&gt;
+                &lt;table cellpadding="5"&gt;
+                &lt;tr&gt;&lt;td align="right"&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/div&gt;&lt;/td&gt;&lt;td&gt;{:}&lt;/td&gt;&lt;/tr&gt;
+                &lt;tr&gt;&lt;td align="right"&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/div&gt;&lt;/td&gt;&lt;td&gt;{:}&lt;/td&gt;&lt;/tr&gt;
+                &lt;tr&gt;&lt;td align="right"&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/div&gt;&lt;/td&gt;&lt;td&gt;{:}&lt;/td&gt;&lt;/tr&gt;
                 </translation>
     </message>
     <message>
@@ -2634,7 +2635,7 @@ Le processus pour rejoindre la communauté devrait être refait à zéro.</trans
     </message>
     <message>
         <location filename="../../../src/sakia/gui/navigation/controller.py" line="188"/>
-        <source>Are you sure ? This won&apos;t remove your money&quot;
+        <source>Are you sure ? This won't remove your money"
 neither your identity from the network.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2826,7 +2827,7 @@ The publication of this document will remove your identity from the network.&lt;
     <message>
         <location filename="../../../src/cutecoin/gui/views/wot.py" line="293"/>
         <source>Send money</source>
-        <translation type="obsolete">Envoyer de l&apos;argent</translation>
+        <translation type="obsolete">Envoyer de l'argent</translation>
     </message>
     <message>
         <location filename="../../../src/cutecoin/gui/views/wot.py" line="297"/>
@@ -2864,12 +2865,12 @@ The publication of this document will remove your identity from the network.&lt;
     <message>
         <location filename="../../../src/sakia/gui/password_asker.py" line="78"/>
         <source>Failed to get private key</source>
-        <translation type="obsolete">Echec d&apos;ouverture de la clé privée</translation>
+        <translation type="obsolete">Echec d'ouverture de la clé privée</translation>
     </message>
     <message>
         <location filename="../../../src/sakia/gui/password_asker.py" line="78"/>
         <source>Wrong password typed. Cannot open the private key</source>
-        <translation type="obsolete">Mauvais mot de passe. Impossible d&apos;ouvrir votre clé privée</translation>
+        <translation type="obsolete">Mauvais mot de passe. Impossible d'ouvrir votre clé privée</translation>
     </message>
 </context>
 <context>
@@ -2882,7 +2883,7 @@ The publication of this document will remove your identity from the network.&lt;
     <message>
         <location filename="../../../src/sakia/gui/sub/password_input/controller.py" line="74"/>
         <source>Wrong password typed. Cannot open the private key</source>
-        <translation type="unfinished">Mauvais mot de passe. Impossible d&apos;ouvrir votre clé privée</translation>
+        <translation type="unfinished">Mauvais mot de passe. Impossible d'ouvrir votre clé privée</translation>
     </message>
 </context>
 <context>
@@ -2947,23 +2948,23 @@ The publication of this document will remove your identity from the network.&lt;
     </message>
     <message>
         <location filename="../../ui/preferences.ui" line="106"/>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:16pt; font-weight:600;&quot;&gt;General settings&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="obsolete">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:16pt; font-weight:600;&quot;&gt;Paramètres généraux&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=" font-size:16pt; font-weight:600;"&gt;General settings&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation type="obsolete">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=" font-size:16pt; font-weight:600;"&gt;Paramètres généraux&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../../ui/preferences.ui" line="192"/>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:16pt; font-weight:600;&quot;&gt;Display settings&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="obsolete">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:16pt; font-weight:600;&quot;&gt;Paramètres d&apos;affichage&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=" font-size:16pt; font-weight:600;"&gt;Display settings&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation type="obsolete">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=" font-size:16pt; font-weight:600;"&gt;Paramètres d'affichage&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../../ui/preferences.ui" line="303"/>
         <source>Use International System of Units</source>
-        <translation type="obsolete">Utiliser le Système d&apos;Unités International</translation>
+        <translation type="obsolete">Utiliser le Système d'Unités International</translation>
     </message>
     <message>
         <location filename="../../ui/preferences.ui" line="356"/>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:16pt; font-weight:600;&quot;&gt;Network settings&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="obsolete">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:16pt; font-weight:600;&quot;&gt;Paramètres réseaux&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=" font-size:16pt; font-weight:600;"&gt;Network settings&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation type="obsolete">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=" font-size:16pt; font-weight:600;"&gt;Paramètres réseaux&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../../ui/preferences.ui" line="336"/>
@@ -3047,7 +3048,7 @@ The publication of this document will remove your identity from the network.&lt;
         <location filename="../../../src/sakia/gui/process_cfg_account.py" line="220"/>
         <source>This action will delete your account locally.
 Please note your key parameters (salt and password) if you wish to recover it later.
-Your account won&apos;t be removed from the networks it joined.
+Your account won't be removed from the networks it joined.
 Are you sure ?</source>
         <translation type="obsolete">Cette action supprimera votre compte localement.
 Veuillez noter les paramètres de votre clé (salage et mot de passe) si vous souhaitez le récupérer plus tard.
@@ -3084,12 +3085,12 @@ Votre compte ne sera pas supprimer des réseaux rejoins.
     </message>
     <message>
         <location filename="../../../src/cutecoin/gui/process_cfg_community.py" line="230"/>
-        <source>The public key of your account wasn&apos;t found in the community. :
+        <source>The public key of your account wasn't found in the community. :
 
 {0}
 
 Would you like to publish the key ?</source>
-        <translation type="obsolete">La clé publique de votre compte n&apos;a pas été trouvée dans la communauté :
+        <translation type="obsolete">La clé publique de votre compte n'a pas été trouvée dans la communauté :
 
 {0}
 
@@ -3107,13 +3108,13 @@ Souhaitez-vous publier votre clé publique ?</translation>
     </message>
     <message>
         <location filename="../../../src/cutecoin/gui/process_cfg_community.py" line="212"/>
-        <source>Couldn&apos;t connect to network : {0}</source>
+        <source>Couldn't connect to network : {0}</source>
         <translation type="obsolete">Impossible de se connecter au réseau : {0}</translation>
     </message>
     <message>
         <location filename="../../../src/cutecoin/gui/process_cfg_community.py" line="204"/>
         <source>UID Publishing</source>
-        <translation type="obsolete">Publication de l&apos;UID</translation>
+        <translation type="obsolete">Publication de l'UID</translation>
     </message>
     <message>
         <location filename="../../../src/cutecoin/gui/process_cfg_community.py" line="204"/>
@@ -3183,9 +3184,9 @@ Souhaitez-vous publier votre clé publique ?</translation>
         <location filename="../../../src/sakia/gui/dialogs/revocation/view.py" line="117"/>
         <source>&lt;h4&gt;The publication of this document will remove your identity from the network.&lt;/h4&gt;
         &lt;li&gt;
-            &lt;li&gt; &lt;b&gt;This identity won&apos;t be able to join the targeted currency anymore.&lt;/b&gt; &lt;/li&gt;
-            &lt;li&gt; &lt;b&gt;This identity won&apos;t be able to generate Universal Dividends anymore.&lt;/b&gt; &lt;/li&gt;
-            &lt;li&gt; &lt;b&gt;This identity won&apos;t be able to certify individuals anymore.&lt;/b&gt; &lt;/li&gt;
+            &lt;li&gt; &lt;b&gt;This identity won't be able to join the targeted currency anymore.&lt;/b&gt; &lt;/li&gt;
+            &lt;li&gt; &lt;b&gt;This identity won't be able to generate Universal Dividends anymore.&lt;/b&gt; &lt;/li&gt;
+            &lt;li&gt; &lt;b&gt;This identity won't be able to certify individuals anymore.&lt;/b&gt; &lt;/li&gt;
         &lt;/li&gt;
         Please think twice before publishing this document.
         </source>
@@ -3455,7 +3456,7 @@ Souhaitez-vous publier votre clé publique ?</translation>
     <message>
         <location filename="../../../src/sakia/gui/process_cfg_community.py" line="142"/>
         <source>UID broadcast</source>
-        <translation type="obsolete">Diffusion de l&apos;UID</translation>
+        <translation type="obsolete">Diffusion de l'UID</translation>
     </message>
     <message>
         <location filename="../../../src/sakia/gui/process_cfg_community.py" line="142"/>
@@ -3728,7 +3729,7 @@ Le transfert de monnaie sera annulé et non envoyé.</translation>
     <message>
         <location filename="../../../src/cutecoin/gui/transfer.py" line="78"/>
         <source>Success transfering {0} {1} to {2}</source>
-        <translation type="obsolete">Succès lors de l&apos;envoi de {0} {1} pour {2}</translation>
+        <translation type="obsolete">Succès lors de l'envoi de {0} {1} pour {2}</translation>
     </message>
     <message>
         <location filename="../../../src/cutecoin/gui/transfer.py" line="83"/>
@@ -3744,7 +3745,7 @@ Veuillez rééssayer plus tard</translation>
     </message>
     <message>
         <location filename="../../../src/cutecoin/gui/transfer.py" line="92"/>
-        <source>Couldn&apos;t connect to network : {0}</source>
+        <source>Couldn't connect to network : {0}</source>
         <translation type="obsolete">Impossible de se connecter au réseau : {0}</translation>
     </message>
     <message>
@@ -3855,12 +3856,12 @@ Veuillez rééssayer plus tard</translation>
     <message>
         <location filename="../../../src/sakia/gui/sub/user_information/view.py" line="61"/>
         <source>
-            &lt;table cellpadding=&quot;5&quot;&gt;
-            &lt;tr&gt;&lt;td align=&quot;right&quot;&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:}&lt;/td&gt;&lt;/tr&gt;
-            &lt;tr&gt;&lt;td align=&quot;right&quot;&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:}&lt;/td&gt;&lt;/tr&gt;
-            &lt;tr&gt;&lt;td align=&quot;right&quot;&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:}&lt;/td&gt;&lt;/tr&gt;
-            &lt;tr&gt;&lt;td align=&quot;right&quot;&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:}&lt;/td&gt;&lt;/tr&gt;
-            &lt;tr&gt;&lt;td align=&quot;right&quot;&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:}&lt;/td&gt;&lt;/tr&gt;
+            &lt;table cellpadding="5"&gt;
+            &lt;tr&gt;&lt;td align="right"&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:}&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td align="right"&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:}&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td align="right"&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:}&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td align="right"&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:}&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td align="right"&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:}&lt;/td&gt;&lt;/tr&gt;
             </source>
         <translation type="unfinished"></translation>
     </message>
@@ -3877,7 +3878,7 @@ Veuillez rééssayer plus tard</translation>
     <message>
         <location filename="../../../src/sakia/gui/sub/user_information/view.py" line="68"/>
         <source>Join date</source>
-        <translation type="unfinished">Date d&apos;inscription</translation>
+        <translation type="unfinished">Date d'inscription</translation>
     </message>
     <message>
         <location filename="../../../src/sakia/gui/sub/user_information/view.py" line="68"/>
@@ -4038,7 +4039,7 @@ Publishing your UID can be canceled by Revoke UID.</source>
     <message>
         <location filename="../../../src/cutecoin/gui/wallets_tab.py" line="290"/>
         <source>UID Publishing</source>
-        <translation type="obsolete">Publication de l&apos;UID</translation>
+        <translation type="obsolete">Publication de l'UID</translation>
     </message>
     <message>
         <location filename="../../../src/cutecoin/gui/wallets_tab.py" line="290"/>
@@ -4057,14 +4058,14 @@ Publishing your UID can be canceled by Revoke UID.</source>
     </message>
     <message>
         <location filename="../../../src/cutecoin/gui/wallets_tab.py" line="296"/>
-        <source>Couldn&apos;t connect to network : {0}</source>
+        <source>Couldn't connect to network : {0}</source>
         <translation type="obsolete">Impossible de se connecter au réseau : {0}</translation>
     </message>
     <message>
         <location filename="../../../src/cutecoin/gui/wallets_tab.py" line="305"/>
         <source>Are you sure ?
 Revoking your UID can only success if it is not already validated by the network.</source>
-        <translation type="obsolete">Etes-vous sûr(e) ? Révoquer votre UID ne peut réussir que s&apos;il n&apos;a pas été déjà validé par le réseau.</translation>
+        <translation type="obsolete">Etes-vous sûr(e) ? Révoquer votre UID ne peut réussir que s'il n'a pas été déjà validé par le réseau.</translation>
     </message>
     <message>
         <location filename="../../../src/cutecoin/gui/wallets_tab.py" line="321"/>
@@ -4084,17 +4085,17 @@ Revoking your UID can only success if it is not already validated by the network
     <message>
         <location filename="../../../src/cutecoin/gui/wallets_tab.py" line="106"/>
         <source>
-                    &lt;table cellpadding=&quot;5&quot;&gt;
-                    &lt;tr&gt;&lt;td align=&quot;right&quot;&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:}&lt;/td&gt;&lt;/tr&gt;
-                    &lt;tr&gt;&lt;td align=&quot;right&quot;&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:}&lt;/td&gt;&lt;/tr&gt;
-                    &lt;tr&gt;&lt;td align=&quot;right&quot;&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:}&lt;/td&gt;&lt;/tr&gt;
+                    &lt;table cellpadding="5"&gt;
+                    &lt;tr&gt;&lt;td align="right"&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:}&lt;/td&gt;&lt;/tr&gt;
+                    &lt;tr&gt;&lt;td align="right"&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:}&lt;/td&gt;&lt;/tr&gt;
+                    &lt;tr&gt;&lt;td align="right"&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:}&lt;/td&gt;&lt;/tr&gt;
                     &lt;/table&gt;
                     </source>
         <translation type="obsolete">
-                    &lt;table cellpadding=&quot;5&quot;&gt;
-                    &lt;tr&gt;&lt;td align=&quot;right&quot;&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:}&lt;/td&gt;&lt;/tr&gt;
-                    &lt;tr&gt;&lt;td align=&quot;right&quot;&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:}&lt;/td&gt;&lt;/tr&gt;
-                    &lt;tr&gt;&lt;td align=&quot;right&quot;&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:}&lt;/td&gt;&lt;/tr&gt;
+                    &lt;table cellpadding="5"&gt;
+                    &lt;tr&gt;&lt;td align="right"&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:}&lt;/td&gt;&lt;/tr&gt;
+                    &lt;tr&gt;&lt;td align="right"&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:}&lt;/td&gt;&lt;/tr&gt;
+                    &lt;tr&gt;&lt;td align="right"&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:}&lt;/td&gt;&lt;/tr&gt;
                     &lt;/table&gt;
                     </translation>
     </message>
@@ -4175,17 +4176,17 @@ Revoking your UID can only success if it is not already validated by the network
     <message>
         <location filename="../../../src/sakia/gui/wot_tab.py" line="140"/>
         <source>
-                    &lt;table cellpadding=&quot;5&quot;&gt;
-                    &lt;tr&gt;&lt;td align=&quot;right&quot;&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:}&lt;/td&gt;&lt;/tr&gt;
-                    &lt;tr&gt;&lt;td align=&quot;right&quot;&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:}&lt;/td&gt;&lt;/tr&gt;
-                    &lt;tr&gt;&lt;td align=&quot;right&quot;&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:}&lt;/td&gt;&lt;/tr&gt;
+                    &lt;table cellpadding="5"&gt;
+                    &lt;tr&gt;&lt;td align="right"&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:}&lt;/td&gt;&lt;/tr&gt;
+                    &lt;tr&gt;&lt;td align="right"&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:}&lt;/td&gt;&lt;/tr&gt;
+                    &lt;tr&gt;&lt;td align="right"&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:}&lt;/td&gt;&lt;/tr&gt;
                     &lt;/table&gt;
                     </source>
         <translation type="obsolete">
-                    &lt;table cellpadding=&quot;5&quot;&gt;
-                    &lt;tr&gt;&lt;td align=&quot;right&quot;&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:}&lt;/td&gt;&lt;/tr&gt;
-                    &lt;tr&gt;&lt;td align=&quot;right&quot;&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:}&lt;/td&gt;&lt;/tr&gt;
-                    &lt;tr&gt;&lt;td align=&quot;right&quot;&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:}&lt;/td&gt;&lt;/tr&gt;
+                    &lt;table cellpadding="5"&gt;
+                    &lt;tr&gt;&lt;td align="right"&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:}&lt;/td&gt;&lt;/tr&gt;
+                    &lt;tr&gt;&lt;td align="right"&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:}&lt;/td&gt;&lt;/tr&gt;
+                    &lt;tr&gt;&lt;td align="right"&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:}&lt;/td&gt;&lt;/tr&gt;
                     &lt;/table&gt;
                     </translation>
     </message>
@@ -4217,17 +4218,17 @@ Revoking your UID can only success if it is not already validated by the network
     <message>
         <location filename="../../../src/sakia/gui/wot_tab.py" line="158"/>
         <source>
-                &lt;table cellpadding=&quot;5&quot;&gt;
-                &lt;tr&gt;&lt;td align=&quot;right&quot;&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:}&lt;/td&gt;&lt;/tr&gt;
-                &lt;tr&gt;&lt;td align=&quot;right&quot;&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;
-                &lt;tr&gt;&lt;td align=&quot;right&quot;&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:}&lt;/td&gt;&lt;/tr&gt;
+                &lt;table cellpadding="5"&gt;
+                &lt;tr&gt;&lt;td align="right"&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:}&lt;/td&gt;&lt;/tr&gt;
+                &lt;tr&gt;&lt;td align="right"&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;
+                &lt;tr&gt;&lt;td align="right"&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:}&lt;/td&gt;&lt;/tr&gt;
                 &lt;/table&gt;
                 </source>
         <translation type="obsolete">
-                &lt;table cellpadding=&quot;5&quot;&gt;
-                &lt;tr&gt;&lt;td align=&quot;right&quot;&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:}&lt;/td&gt;&lt;/tr&gt;
-                &lt;tr&gt;&lt;td align=&quot;right&quot;&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;
-                &lt;tr&gt;&lt;td align=&quot;right&quot;&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:}&lt;/td&gt;&lt;/tr&gt;
+                &lt;table cellpadding="5"&gt;
+                &lt;tr&gt;&lt;td align="right"&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:}&lt;/td&gt;&lt;/tr&gt;
+                &lt;tr&gt;&lt;td align="right"&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;
+                &lt;tr&gt;&lt;td align="right"&gt;&lt;b&gt;{:}&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{:}&lt;/td&gt;&lt;/tr&gt;
                 &lt;/table&gt;
                 </translation>
     </message>
@@ -4298,12 +4299,12 @@ Revoking your UID can only success if it is not already validated by the network
     <message>
         <location filename="../../../src/sakia/gui/widgets/context_menu.py" line="70"/>
         <source>Copy membership document to clipboard</source>
-        <translation type="obsolete">Copier le document d&apos;adhésion</translation>
+        <translation type="obsolete">Copier le document d'adhésion</translation>
     </message>
     <message>
         <location filename="../../../src/sakia/gui/widgets/context_menu.py" line="60"/>
         <source>Copy self-certification document to clipboard</source>
-        <translation type="unfinished">Copier le document d&apos;auto-certification</translation>
+        <translation type="unfinished">Copier le document d'auto-certification</translation>
     </message>
     <message>
         <location filename="../../../src/sakia/gui/widgets/context_menu.py" line="70"/>
